@@ -125,9 +125,14 @@ p {
 }
 /* section team end */
 
+/* porfolio start */
+.portfolio-list {
+  background-color: #fff;
+}
 .portfolio-title {
   text-transform: capitalize;
 }
+/* porfolio end */
 
 /* footer start */
 .page-footer {

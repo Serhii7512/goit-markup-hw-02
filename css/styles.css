@@ -25,7 +25,7 @@ button {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -33,6 +33,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -84,7 +85,7 @@ p {
 .hero-banner-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -96,8 +97,12 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
 }
-
+.hero-banner-batton:hover,
+.hero-banner-batton:focus {
+  background-color: #404bbf;
+}
 /* hero banner end */
 
 /* section team start */
@@ -105,13 +110,24 @@ p {
 .team {
   background-color: #f4f4fd;
 }
-.team p {
-  text-align: center;
+.team-list {
+  background-color: #fff;
 }
-.team h3 {
+.team-title {
+  text-transform: capitalize;
+}
+.team-role {
+  text-align: center;
+  font-size: 16px;
+}
+.team-name {
   text-align: center;
 }
 /* section team end */
+
+.portfolio-title {
+  text-transform: capitalize;
+}
 
 /* footer start */
 .page-footer {

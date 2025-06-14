@@ -129,6 +129,9 @@ p {
 .portfolio-list {
   background-color: #ffffff;
 }
+.portfolio-list-item {
+  background-color: #ffffff;
+}
 .portfolio-title {
   text-transform: capitalize;
 }
